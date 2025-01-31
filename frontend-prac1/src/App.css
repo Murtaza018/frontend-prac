@@ -1,0 +1,249 @@
+.sidebar {
+  background-color: rgb(45, 0, 57);
+  width: 4%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden !important;
+}
+.lensIcon {
+  color: white !important;
+  font-size: 5vh !important;
+}
+.lensIconButton {
+  color: white !important;
+}
+.lensIconDiv {
+  background-color: blueviolet !important;
+  border-radius: 20%;
+  margin-top: 3vh;
+  width: 76%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-icons {
+  margin-top: 7vh !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6vh;
+  margin-top: 10vh !important;
+  font-size: 5vh !important;
+}
+.sidebar-middle-icons {
+  font-size: 4vh !important;
+  color: white !important;
+}
+.sidebar-end-icon-div {
+  margin-top: 45vh !important;
+  display: flex;
+  align-items: center;
+  font-size: 5vh !important;
+}
+.sidebar-buttons {
+  height: 1.1em !important;
+  width: 1.1em !important;
+  background-color: transparent !important;
+}
+.sidebar-buttons:hover .sidebar-middle-icons {
+  background-color: antiquewhite !important;
+  border-radius: 20% !important;
+  color: rgb(45, 0, 57) !important;
+  fill: rgb(45, 0, 57) !important;
+}
+.sidebar-buttons-selected {
+  height: 1.1em !important;
+  width: 1.1em !important;
+  background-color: transparent !important;
+  border-radius: 20% !important;
+}
+.sidebar-middle-button-selected {
+  font-size: 4vh !important;
+  background-color: antiquewhite !important;
+  border-radius: 20% !important;
+  color: rgb(45, 0, 57) !important;
+  fill: rgb(45, 0, 57) !important;
+}
+.dashboard-card {
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  padding-left: 2vw;
+}
+.dashboard-options {
+  font-weight: 600;
+  font-size: small;
+  word-wrap: break-word;
+  font-family: sans-serif;
+}
+.dashboard-middle-div {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-option-div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+}
+.headbar {
+  width: 100% !important;
+  height: 10% !important;
+}
+.headbar-options {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: right;
+  padding-right: 1vw;
+  font-weight: 600;
+  font-size: small;
+  word-wrap: break-word;
+  font-family: sans-serif;
+}
+.headbar-option-div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+}
+.headbar-option2 {
+  font-weight: 600;
+  font-size: small;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  color: rgb(45, 0, 57);
+  background-color: rgb(229, 185, 241);
+  border-radius: 4px;
+  padding: 5px 20px 5px 20px;
+}
+.middle-div {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 0vh;
+}
+.middle-div-card {
+  width: 23%;
+  height: 70%;
+}
+.lensicon-middle-div {
+  font-size: smaller !important;
+  color: rgb(90, 1, 114) !important;
+}
+
+.middle-div-top-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 1.5vw;
+}
+.middle-div-bottom-text-div {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  margin-left: 1.5vw;
+  margin-top: 2vh;
+}
+
+.middle-div-numbers {
+  font-size: 2em;
+  font-weight: 500;
+
+  margin: 0;
+}
+
+.middle-div-bottom-text {
+  font-size: 0.8em;
+  margin: 0;
+
+  margin-bottom: 5px;
+}
+
+.bottom-div {
+  width: 100%;
+  height: 67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6vh;
+}
+.bottom-div-card {
+  width: 97%;
+  height: 82%;
+}
+.bottom-div-top-card {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+.top-card-left-div {
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+  gap: 1vw;
+}
+.top-card-right-div {
+  display: flex;
+  margin-left: 47vw;
+}
+.right-div-button {
+  color: white !important;
+  font-family: sans-serif !important;
+  background-color: rgb(90, 1, 114) !important;
+  padding: 5px 15px 5px 15px !important;
+}
+.bottom-div-bottom-card {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-card-table {
+  width: 100%;
+  border-collapse: collapse;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+td,
+th {
+  border: 1px solid #ddd; /* Add borders to all cells */
+  padding: 8px;
+  text-align: left;
+  padding-left: 2vw;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+th {
+  background-color: #f2f2f2;
+  opacity: 0.85;
+}
+td {
+  font-weight: bold;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}
+.table-header-div {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.table-header-div {
+  display: flex;
+  align-items: center;
+  gap: 0vw;
+}
